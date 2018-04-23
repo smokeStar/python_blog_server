@@ -13,7 +13,7 @@ class DevelopmentConfig(Config):
 	REDIS_PORT = 6379
 	REDIS_DB   = 0
 
-	MYSQL_INFO = "mysql+pymysql://root:sumdoo@127.0.0.1:3306/test?charset=utf8"
+	MYSQL_INFO = "mysql+pymysql://root:xxxx@127.0.0.1:3306/test?charset=utf8"
 
 # 生产模式
 class ProductConfig(Config):
@@ -24,6 +24,6 @@ class ProductConfig(Config):
 	REDIS_PORT = 6379
 	REDIS_DB   = 0
 
-	MYSQL_INFO = "mysql+pymysql://root:sumdoo@127.0.0.1:3306/test?charset=utf8"
+	MYSQL_INFO = "mysql+pymysql://root:xxxx@127.0.0.1:3306/test?charset=utf8"
 
 Conf = DevelopmentConfig
